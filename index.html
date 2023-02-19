@@ -1,0 +1,12 @@
+---
+layout: page
+title: Notas de Ajedrez
+---
+<!--{% include pagination.html %}-->
+    <p>Publicaciones recientes:</p>
+    <div class="row">
+    {% for post in paginator.posts %}
+        {% include cardpost.html %}
+    {% endfor %}
+    </div>
+{% include pagination.html %}

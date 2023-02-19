@@ -1,0 +1,14 @@
+---
+layout: page
+title: Tácticas
+---
+<p>Todas las publicaciones sobre Tácticas:</p>
+<div class="row">
+{% for category in site.categories %}
+    {% if category[0] == "tactics" %}
+        {% for post in category[1] %}
+            {% include cardpost.html %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+</div>

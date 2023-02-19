@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="container">
+    <article>
+        <h1 class="center-align">{{page.title}}</h1>
+        <p class="right-align">{{ post.date | date_to_string }}</p>
+        <img src="{{ page.thumbnail }}" alt="" class="responsive-img">
+        {{content}}
+    </article>
+</div>

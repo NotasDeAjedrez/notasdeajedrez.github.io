@@ -1,0 +1,14 @@
+---
+layout: page
+title: Aperturas
+---
+<p>Todas las publicaciones sobre Aperturas:</p>
+<div class="row">
+{% for category in site.categories %}
+    {% if category[0] == "opening" %}
+        {% for post in category[1] %}
+            {% include cardpost.html %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+</div>

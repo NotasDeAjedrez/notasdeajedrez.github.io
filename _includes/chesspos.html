@@ -1,0 +1,15 @@
+<figure>
+    <chess-board
+        position="{{include.fen}}"
+        orientation="{{include.move}}">
+    </chess-board>
+    <figcaption>
+    <a href="https://lichess.org/analysis/{{include.fen}}?color={{include.move}}">Tablero de análisis</a>
+    <br>
+    {% if include.move == "white"%}
+        Juegan blancas.
+    {% else %}
+        Juegan negras.
+    {% endif%}
+    </figcaption>
+</figure>
