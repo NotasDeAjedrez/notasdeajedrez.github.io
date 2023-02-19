@@ -46,7 +46,7 @@ Las blancas realizan jaque y a la vez atacan a la torre de d2.
 
 ## Tenedor de Torre
 
-{%include chesspos.html fen="r2q2kr/ppp1n2p/6pn/4R3/2NP2b1/2P2Q1P/P4P2/4R1K1 w - - 0 25" move="white"%}
+{%include chesspos.html fen="r1nq2kr/ppp4p/6pn/4R3/2NP2P1/2P2Q2/P4P2/4R1K1 w - - 1 26" move="white"%}
 
 Las blancas ganan la dama luego de:
 
