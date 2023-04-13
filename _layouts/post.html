@@ -1,11 +1,30 @@
 ---
 layout: default
 ---
+
 <div class="container">
-    <article>
-        <h1 class="center-align">{{page.title}}</h1>
-        <p class="right-align">{{ post.date | date_to_string }}</p>
-        <img src="{{ page.thumbnail }}" alt="" class="responsive-img">
-        {{content}}
-    </article>
+	<style>
+		chess-board {
+			--dark-color: #009688;
+			--light-color: #ddd;
+			display: block;
+			width: 50vmin;
+			height: 50vmin;
+			margin: 0 auto;
+		}
+		figcaption {
+			font: italic smaller sans-serif;
+			text-align: center;
+			padding: 5px;
+		}
+	</style>
+	<article class="panel white-bg flex justify-center">
+		<h1 class="s12 center-text block">{{page.title}}</h1>
+		<p class="s12 right-text">{{ post.date | date_to_string }}</p>
+		<img
+			src="{{ page.thumbnail }}"
+			style="width: 100%; height: auto; max-width: 640px; padding: 12px"
+		/>
+		<div class="s12">{{content}}</div>
+	</article>
 </div>

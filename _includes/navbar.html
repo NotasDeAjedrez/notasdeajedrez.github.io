@@ -1,45 +1,14 @@
-<!--
-<nav class="grey darken-3">
-    <div class="nav-wrapper" style="padding-left: 20px; padding-right: 20px;">
-        <a href="/" class="left brand-logo">Notas de Ajedrez</a>
-        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-med-and-down right"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="/aperturas.html">Aperturas</a></li>
-            <li><a href="/mediojuego.html">Mediojuego</a></li>
-            <li><a href="/tacticas.html">Tácticas</a></li>
-            <li><a href="/finales.html">Finales</a></li>
-            <li><a href="/finales.html">Apps</a></li>
-            <li><a href="/finales.html">Libros</a></li>
-        </ul>
-    </div>
+<nav class="navbar teal-bg">
+	<a href="/" class="logo white">Notas de Ajedrez</a>
+	<a class="menu-toggle"><i class="material-icons white">menu</i></a>
+	<ul class="menu">
+		<li><a class="menu-item white" href="/chessclock">ChessClock</a></li>
+	</ul>
 </nav>
-<ul id="slide-out" class="sidenav grey darken-3">
-	<li><a href="/aperturas.html">Aperturas</a></li>
-	<li><a href="/mediojuego.html">Mediojuego</a></li>
-	<li><a href="/tacticas.html">Tácticas</a></li>
-	<li><a href="/finales.html">Finales</a></li>
-    <li><a href="/finales.html">Libros</a></li>
-</ul>
--->
-
-<nav class="grey darken-3">
-    <div class="nav-wrapper" style="padding-left: 20px; padding-right: 20px;">
-        <a href="/" class="brand-logo right hide-on-med-and-up">Notas de Ajedrez</a>
-        <a href="/" class="brand-logo center hide-on-small-only">Notas de Ajedrez</a>
-        <a href="#" data-target="slide-out" class="sidenav-trigger left show-on-medium-and-up"><i class="material-icons">menu</i></a>
-    </div>
-</nav>
-
-<ul id="slide-out" class="sidenav grey darken-3">
-    <li><a href="#!" class="subheader"><b>Fases del juego:</b></a></li>
-	<li><a class="waves-effect" href="/aperturas">Aperturas</a></li>
-	<li><a class="waves-effect" href="/mediojuego">Mediojuego</a></li>
-	<li><a class="waves-effect" href="/tacticas">Tácticas</a></li>
-	<li><a class="waves-effect" href="/finales">Finales</a></li>
-    <div class="divider"></div>
-    <li><a href="#!" class="subheader"><b>Apps:</b></a></li>
-    <li><a class="waves-effect" href="/chessclock">Chessclock</a></li>
-    <div class="divider"></div>
-    <li><a href="#!" class="subheader"><b>Libros en línea:</b></a></li>
-    <li><a class="waves-effect" href="/fundamentos-de-ajedrez-capablanca">Fundamentos de Ajedrez</a></li>
-</ul>
+<script>
+	const menuToggle = document.querySelector(".menu-toggle");
+	const menu = document.querySelector(".menu");
+	menuToggle.addEventListener("click", () => {
+		menu.classList.toggle("show-menu");
+	});
+</script>
