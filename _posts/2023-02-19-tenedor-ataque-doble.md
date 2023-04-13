@@ -3,11 +3,12 @@ title: Tenedor (ataque doble)
 thumbnail: https://cdn.pixabay.com/photo/2015/10/06/05/43/fork-973901_960_720.jpg
 category: tactics
 layout: post
+published: false
 ---
 
 El tenedor es un elemento táctico que refiere al ataque simultáneo de dos piezas consiguiendo ventaja material, ya que el rival no puede defender ambas en un solo turno.
 
-El ataque suele darse cuando las piezas se encuentran indefensas, cuando una de las piezas atacadas es el rey y la otra la dama se le conoce como ***Tenedor real***.
+El ataque suele darse cuando las piezas se encuentran indefensas, cuando una de las piezas atacadas es el rey y la otra la dama se le conoce como **_Tenedor real_**.
 
 Se puede categorizar el tenedor según las piezas, por ejemplo, tenedor de peón, de caballo, de alfil, etc.
 

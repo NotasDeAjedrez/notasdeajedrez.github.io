@@ -3,6 +3,7 @@ title: Principios generales de las aperturas
 thumbnail: https://cdn.pixabay.com/photo/2013/06/20/17/09/chess-140340_960_720.jpg
 category: opening
 layout: post
+published: false
 ---
 
 En ajedrez, el objetivo de la apertura es obtener ventaja en el mediojuego o final, por eso lo primero que se debe aprender para esta fase del juego son los principios generales de la apertura.
@@ -65,14 +66,14 @@ Esto quiere decir que antes de mover las torres y después de enrocar se debe bu
 
 ## Consejos prácticos
 
-- Juega los peones al centro, intenta jugar siempre 1.e4 e5 o 1.d4 d5
-- Evita mover la misma pieza varias veces, solo que sea realmente necesario.
-- Saca los caballos y alfiles primero.
-- Coloca las torres en columnas abiertas, normalmente será en el centro.
-- Coloca la dama en una columna cerrada, alejada del ataque enemigo.
-- Saca la dama después de enrocar.
-- Procura que tus piezas estén defendidas.
-- No realices movimientos innecesarios de peones.
-- Siempre que puedas, coloca los caballos en el centro.
-- Enrocate antes de realizar la jugada 10.
-- Analiza los movimientos de tu rival, siempre que puedas evita o refuta sus planes.
+-   Juega los peones al centro, intenta jugar siempre 1.e4 e5 o 1.d4 d5
+-   Evita mover la misma pieza varias veces, solo que sea realmente necesario.
+-   Saca los caballos y alfiles primero.
+-   Coloca las torres en columnas abiertas, normalmente será en el centro.
+-   Coloca la dama en una columna cerrada, alejada del ataque enemigo.
+-   Saca la dama después de enrocar.
+-   Procura que tus piezas estén defendidas.
+-   No realices movimientos innecesarios de peones.
+-   Siempre que puedas, coloca los caballos en el centro.
+-   Enrocate antes de realizar la jugada 10.
+-   Analiza los movimientos de tu rival, siempre que puedas evita o refuta sus planes.

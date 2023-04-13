@@ -3,6 +3,7 @@ title: Peón y Rey vs Rey
 thumbnail: https://cdn.pixabay.com/photo/2016/06/28/01/42/chess-1483735_960_720.jpg
 category: endgame
 layout: post
+published: false
 ---
 
 El peón es la mínima ventaja material que se puede tener en un final, es suficiente para ganar la partida, pero se deben tener en cuenta algunos factores esenciales.

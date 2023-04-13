@@ -3,19 +3,20 @@ title: Valor relativo de las piezas
 thumbnail: https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_960_720.jpg
 categories: [middlegame, opening]
 layout: post
+published: false
 ---
 
 Las piezas en ajedrez tienen diferentes características, por lo que su importancia sobre el tablero varía según el contexto. Esto significa que hay piezas mas valiosas que otras y en esto radica lo que se conoce como ventaja material.
 
 No existe una tabla exacta sobre el valor material de cada pieza, pero lo mas común y fácil de estudiar es lo siguiente:
 
-| Pieza | Valor |
-|---|---|
-| Peón | 1 |
-| Caballo | 3 |
-| Alfil | 3 |
-| Torre | 5 |
-| Dama | 9 |
+| Pieza   | Valor |
+| ------- | ----- |
+| Peón    | 1     |
+| Caballo | 3     |
+| Alfil   | 3     |
+| Torre   | 5     |
+| Dama    | 9     |
 
 Con esto puede hacer algo de matemáticas y visualizar rapidamente sobre el tablero el equilibrio material. Por ejemplo, dos peones y un caballo vale lo mismo que una torre, un caballo, un alfil y una torre valen mas que una dama, dos torres valen mas que una dama, tres peones y el par de alfiles valen una dama.
 
@@ -25,29 +26,29 @@ Existen condiciones que pueden alterar el valor de las piezas, es por eso que se
 
 ### Peón
 
-- Peón pasado: +0.5
-- Peón aislado: -0.2
-- Peón doblado: -0.2
-- Peón en quinta fila: +0.5
-- Peón en sexta fila: +1
-- Peón en septima fila: +3
+-   Peón pasado: +0.5
+-   Peón aislado: -0.2
+-   Peón doblado: -0.2
+-   Peón en quinta fila: +0.5
+-   Peón en sexta fila: +1
+-   Peón en septima fila: +3
 
 ### Caballo
 
-- Caballo en puesto avanzado: +1
-- Su valor baja conforme desaparecen los peones del tablero: de 0 hasta -0.5
-- Caballo atrapado (A8/H8/A7/H7 o A1/H1/A2/H2): -2
+-   Caballo en puesto avanzado: +1
+-   Su valor baja conforme desaparecen los peones del tablero: de 0 hasta -0.5
+-   Caballo atrapado (A8/H8/A7/H7 o A1/H1/A2/H2): -2
 
 ### Alfil
 
-- Si tiene par de alfiles: +0.5 cada alfil
-- Mal alfil (cuando hay muchos peones en casillas de su color): -0.5
+-   Si tiene par de alfiles: +0.5 cada alfil
+-   Mal alfil (cuando hay muchos peones en casillas de su color): -0.5
 
 ### Torre
 
-- Su valor aumenta conforme desaparecen los peones del tablero: de 0 hasta +0.5
-- Torre en columna abierta: +0.5
-- Torre en septima/octava fila: +1
+-   Su valor aumenta conforme desaparecen los peones del tablero: de 0 hasta +0.5
+-   Torre en columna abierta: +0.5
+-   Torre en septima/octava fila: +1
 
 La dama no tiene bonificaciones ni penalizaciones.
 
